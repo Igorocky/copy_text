@@ -28,3 +28,7 @@ Make a button green when clicked as an indicator of what item has been copied.
 
 Make the table a bit denser by decreasing space between rows by 1/3.
 ========================================================================================================================
+Align buttons by the right edge of the column and decrease the space between rows by 1/2.
+========================================================================================================================
+Make buttons to occupy the entire width of the column.
+========================================================================================================================
