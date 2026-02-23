@@ -19,3 +19,12 @@ item('age', '28');
 ========================================================================================================================
 remove the fallback branch and put the logic of making bold into the 'then' method of the future.
 ========================================================================================================================
+Make usability improvements:
+
+Move the item description to the button (so, basically replace "copy" with the item description)
+and remove the column with description (the table now should have only two columns).
+
+Make a button green when clicked as an indicator of what item has been copied.
+
+Make the table a bit denser by decreasing space between rows by 1/3.
+========================================================================================================================
