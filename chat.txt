@@ -1,0 +1,21 @@
+========================================================================================================================
+Create a single html page copy_text.html with all required js code embedded into it.
+
+The purpose of this page is to allow putting into the clipboard some predefined pieces of text by clicking a button "copy" located to the left of the text record.
+
+The page contains a table with three columns, some number of rows, transparent boarder, and no header.
+
+The first column is the "copy" button.
+The second column is a name (or a short description) of the piece of the text to be copied.
+The third column is the text to copy.
+
+When user clicks the button, the text from the third column gets copied into the clipboard.
+Upon a successful copying the text in the second column becomes bold which indicates two things: the text has been successfully copied and the item which has been copied.
+
+There should be an easy way to add/edit/remove items in the table by modifying the embedded js code. For example, the configuration may look like that:
+item('address', 'street, building');
+item('name', 'John');
+item('age', '28');
+========================================================================================================================
+remove the fallback branch and put the logic of making bold into the 'then' method of the future.
+========================================================================================================================
